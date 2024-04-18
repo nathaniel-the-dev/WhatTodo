@@ -8,7 +8,7 @@
         <hr class="mb-8 mt-4">
 
         <?php if (!empty($todos)) : ?>
-            <ul class="grid gap-4 overflow-y-auto max-h-96">
+            <ul class="grid gap-4 overflow-y-auto max-h-60">
                 <?php foreach ($todos as $todo) : ?>
                     <li class="border border-gray-300 p-4 rounded shadow group">
                         <div class="flex items-center gap-4">
@@ -31,7 +31,7 @@
                 <?php endforeach ?>
             </ul>
         <?php else : ?>
-            <div class="h-20">
+            <div class="h-16">
                 <p class="text-gray-600">Looks like you don't have any tasks for today.</p>
             </div>
         <?php endif ?>
