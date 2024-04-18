@@ -20,7 +20,7 @@ This is a simple todo app built with PHP. It allows users to add, update, and de
 
 1. Clone this repository
 2. Create a new PostgreSQL database (or use an existing one)
-3. Copy the `.env.example` file a `.env` file and update the database credentials
+3. Create an `.env` file from the `.env.example` file and update the database credentials
 4. Import the `todos.sql` file to create the `todos` and `categories` tables
 5. Start the web server and visit `http://localhost/` (or your domain)
 
