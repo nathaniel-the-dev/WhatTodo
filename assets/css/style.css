@@ -1,0 +1,27 @@
+body {
+	font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+.btn {
+	border-radius: 0.25rem;
+	padding: 0.5rem 0.75rem;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: hsl(0, 0%, 93%);
+}
+
+.max-lines {
+	-webkit-line-clamp: 2; /* number of lines to show */
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical; /* vertical scroll if content overflows */
+}
