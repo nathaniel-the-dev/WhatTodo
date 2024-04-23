@@ -1,5 +1,7 @@
 # WhatTodo
 
+![](./screenshot.png)
+
 This is a simple todo app built with PHP. It allows users to add, update, and delete tasks.
 
 ## Features
